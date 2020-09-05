@@ -12,11 +12,10 @@ print("3) Él come gillyweed")
 print("4) Él realiza un encanto de cabeza de burbuja")
 respuesta_1=int (input())
 if (respuesta_1 == 3):
-    cont_1=cont_1+1
-    print ("Verdadero")
+     cont_1=cont_1+1
+     print ("Verdadero")
 elif (respuesta_1 != 3):
-    print("Incorrecto")
-
+     print("Incorrecto")
 #pregunta 2
 print("B. ¿Cómo se llama la tienda de bromas de Fred y George?")
 print("1) Emporio de bromas Weasley")
@@ -68,9 +67,21 @@ if (respuesta_5 == 2):
     print ("Verdadero")
 elif (respuesta_3 != 2):
     print("Incorrecto")
+#funciones
+def fan(promedio):
+    if (promedio == 20):
+        print("Te hace falta ver mas Harry Potter")
+    elif (promedio == 40):
+        print("Sabes lo basico")
+    elif (promedio == 80):
+        print("Casi perfecto, verlas de nuevo no te haria mal")
+    elif (promedio ==100):
+        print("Wow eres un master")
 
 promedio=cont_1+cont_2+cont_3+cont_4+cont_5
 promedio=(promedio*100)/5
 print (promedio)
-           
+
+print(fan(promedio))
+                   
                    
